@@ -1,0 +1,9 @@
+# 服务器关闭插件配置
+# 默认密码: default123
+password: "default123"
+
+# 可选配置项:
+# message:
+#   correct: "§a密码正确，正在关闭服务器..."
+#   wrong: "§c密码错误！"
+#   usage: "§c用法: /wstop <密码>"

@@ -1,0 +1,17 @@
+name: ShutdownPlugin
+main: com.example.shutdown.ShutdownPlugin
+version: 1.0
+description: 通过密码验证关闭服务器的插件
+author: YourName
+
+permissions:
+  shutdownplugin.use:
+    description: 允许使用服务器关闭命令
+    default: op
+
+commands:
+  wstop:
+    description: 输入密码关闭服务器
+    usage: /wstop <密码>
+    permission: shutdownplugin.use
+    permission-message: "§c你没有权限使用此命令"
